@@ -41,6 +41,7 @@
     <Compile Include="App.fs" />
     <Content Include="App.config" />
     <Content Include="packages.config" />
+    <Compile Include="Models\Car.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Accessibility" />
