@@ -35,6 +35,7 @@
     <DocumentationFile>bin\Release\FSharpWpfGuide.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="MainForm.xaml" />
     <Resource Include="App.xaml" />
     <Compile Include="App.fs" />
     <Content Include="App.config" />
