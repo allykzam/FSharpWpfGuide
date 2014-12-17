@@ -36,6 +36,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Resource Include="MainForm.xaml" />
+    <Compile Include="MainForm.xaml.fs" />
     <Resource Include="App.xaml" />
     <Compile Include="App.fs" />
     <Content Include="App.config" />
