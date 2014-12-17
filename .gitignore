@@ -1,0 +1,51 @@
+### Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.ex
+*.o
+*.so
+*.ocx
+*.exp
+*.lib
+*.msi
+bin/
+obj/
+Debug/
+Release/
+
+### NuGet packages
+packages/
+*.nupkg
+
+### Visual Studio Files
+*.suo
+*.user
+*.sln.ide
+*.sln.docstates
+
+### Test Project Results
+TestResults/
+*.vsmdi
+
+### Archives/tarballs/etc.
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+### OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+Desktop.ini
