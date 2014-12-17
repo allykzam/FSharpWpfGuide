@@ -35,13 +35,13 @@
     <DocumentationFile>bin\Release\FSharpWpfGuide.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Models\Car.fs" />
     <Resource Include="MainForm.xaml" />
     <Compile Include="MainForm.xaml.fs" />
     <Resource Include="App.xaml" />
     <Compile Include="App.fs" />
     <Content Include="App.config" />
     <Content Include="packages.config" />
-    <Compile Include="Models\Car.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Accessibility" />
