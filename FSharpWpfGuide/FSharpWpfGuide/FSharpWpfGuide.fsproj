@@ -37,6 +37,7 @@
   <ItemGroup>
     <Compile Include="Models\Car.fs" />
     <Compile Include="ViewModels\CarViewModel.fs" />
+    <Compile Include="ViewModels\CarListViewModel.fs" />
     <Resource Include="Views\CarView.xaml" />
     <Compile Include="Views\CarView.xaml.fs" />
     <Resource Include="MainForm.xaml" />
