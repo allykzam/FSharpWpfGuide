@@ -11,6 +11,6 @@
         <viewmodels:MainFormViewModel />
     </Window.DataContext>
     <Canvas>
-        <views:CarView />
+        <views:CarListView />
     </Canvas>
 </Window>
