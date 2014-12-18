@@ -1,0 +1,27 @@
+﻿<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:viewmodels="clr-namespace:FSharpWpfGuide.ViewModels;assembly=FSharpWpfGuide"
+    mc:Ignorable="d"
+    d:DesignWidth="200"
+    d:DesignHeight="100"
+    >
+    <Control.DataContext>
+        <viewmodels:CarListViewModel />
+    </Control.DataContext>
+    <StackPanel>
+        <Button Content="Say Hi" x:Name="TestButton" />
+        <ListView ItemsSource="{Binding Cars}" x:Name="CarList">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="{Binding MakeStr}" />
+                        <Label Content="{Binding Model}" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackPanel>
+</UserControl>
