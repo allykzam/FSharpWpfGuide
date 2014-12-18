@@ -44,6 +44,7 @@
     <Compile Include="Views\CarListView.xaml.fs" />
     <Resource Include="MainForm.xaml" />
     <Compile Include="MainForm.xaml.fs" />
+    <Compile Include="AssemblyInfo.fs" />
     <Resource Include="App.xaml" />
     <Compile Include="App.fs" />
     <Content Include="App.config" />
