@@ -8,7 +8,7 @@ you follow the tutorial exactly, the result should match this project,
 aside from the AssemblyInfo.fs file, the LICENSE file, and this README
 file.
 
-The code here is Copyright (c) 2014 Anthon Perez, and is provided under
+The code here is Copyright (c) 2014 Anthony Perez, and is provided under
 the MIT license, available in the LICENSE file or at
 [opensource.org][2].
 
